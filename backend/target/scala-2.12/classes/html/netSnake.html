@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paradise</title>
+  <style>
+    body{
+      margin:0;
+    }
+    .none{
+      display:none;
+    }
+      #offCanvas{
+        display: none;
+      }
+      #backCanvas{
+          z-index:1;
+          position:absolute;
+      }
+      #GameView{
+          position: absolute;
+          z-index:2;
+      }
+      #TopView{
+        position: absolute;
+        z-index: 4;
+      }
+  </style>
+</head>
+<body>
+
+  <div>
+    <canvas id="offCanvas" tabindex="1" ></canvas>
+
+    <canvas id="backCanvas" tabindex="2" ></canvas>
+
+    <canvas id="GameView" tabindex="3" ></canvas>
+
+    <canvas id="TopView" tabindex="4" style="cursor: url(/paradise/static/img/orient.png),auto;"></canvas>
+  </div>
+
+
+  <!--<canvas id="frontCanvas" tabindex="4" ></canvas>-->
+
+
+  <div id="playground"></div>
+  <img class="none" id="grass" src ="/paradise/static/img/background.png" />
+  <img class="none" id="bk1" src ="/paradise/static/img/background4.png" />
+  <img class="none" id="bk2" src ="/paradise/static/img/background2.png" />
+  <img class="none" id="snakeHead" src ="/paradise/static/img/snake.png" />
+  <audio id="music" src="/paradise/static/img/bk.mp3" loop="loop" preload="auto" ></audio>
+  <audio id="victory" src="/paradise/static/img/victory.mp3" preload="auto"></audio>
+  <audio id="end" src="/paradise/static/img/end.mp3" preload="auto"></audio>
+
+  <script type="text/javascript" src="/paradise/static/sjsout/frontend-opt.js"></script>
+  <!--<script type="text/javascript" src="/paradise/frontend-launcher.js"></script>-->
+  <!--http://d.datouwang.com/uploads/file/yinxiao/2016/yinxiao197.mp3-->
+
+</body>
+</html>

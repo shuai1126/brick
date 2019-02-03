@@ -1,0 +1,208 @@
+18-11-19 17:19:24 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+18-11-19 17:19:24 DEBUG c.neo.sk.paradise.core.UserManager$ - userManager is starting...
+18-11-19 17:19:24 DEBUG c.neo.sk.paradise.core.RoomManager$ - roomManager is starting...
+18-11-19 17:19:24 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient is starting...
+18-11-19 17:19:24 DEBUG c.neo.sk.paradise.core.UserManager$ - akka://paradise/user/userManager becomes idle behavior.
+18-11-19 17:19:24 DEBUG c.neo.sk.paradise.core.RoomManager$ - akka://paradise/user/roomManager becomes idle behavior.
+18-11-19 17:19:24 INFO com.neo.sk.paradise.Boot$ - Starting.
+18-11-19 17:19:24 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-19 17:19:45 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-19 17:19:45 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-19 17:19:45 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-19 17:19:45 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-19 17:19:46 INFO com.neo.sk.paradise.Boot$ - Listen to the 0.0.0.0:30370
+18-11-19 17:19:46 INFO com.neo.sk.paradise.Boot$ - Done.
+18-11-19 17:19:47 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-19 17:19:48 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@6e5212d9
+18-11-19 17:19:48 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"56W6t7JCQCEhJQ1s79kRpkX04invh3A6","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-19 17:19:49 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-21 10:21:20 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+18-11-21 10:21:21 DEBUG c.neo.sk.paradise.core.UserManager$ - userManager is starting...
+18-11-21 10:21:21 DEBUG c.neo.sk.paradise.core.RoomManager$ - roomManager is starting...
+18-11-21 10:21:21 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient is starting...
+18-11-21 10:21:21 DEBUG c.neo.sk.paradise.core.RoomManager$ - akka://paradise/user/roomManager becomes idle behavior.
+18-11-21 10:21:21 DEBUG c.neo.sk.paradise.core.UserManager$ - akka://paradise/user/userManager becomes idle behavior.
+18-11-21 10:21:21 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-21 10:21:21 INFO com.neo.sk.paradise.Boot$ - Starting.
+18-11-21 10:21:35 INFO com.neo.sk.paradise.Boot$ - Listen to the 0.0.0.0:30370
+18-11-21 10:21:35 INFO com.neo.sk.paradise.Boot$ - Done.
+18-11-21 10:21:36 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-21 10:21:36 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-21 10:21:36 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-21 10:21:36 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-21 10:21:37 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-21 10:21:37 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@4daaf6b2
+18-11-21 10:21:37 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"gLqa7oRvoRPA8EY8oYYUaDkW3ST7a95Q","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-21 10:21:37 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-21 12:21:43 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-21 12:21:47 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-21 12:21:47 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-21 12:21:47 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-21 12:21:47 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-21 12:21:52 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-21 12:21:56 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@4ab64a5e
+18-11-21 12:21:56 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"IR4QFrIYhfMjjQHyDuwCO6a7N7mUbI0k","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-21 12:21:57 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-21 14:21:57 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-21 14:21:57 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-21 14:21:57 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-21 14:21:57 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-21 14:21:57 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-21 14:21:57 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-21 14:21:58 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@77bfc3e4
+18-11-21 14:21:58 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"kkNVecrzAHpX7asBBNvQfs3c4VE7jDJV","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-21 14:21:58 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-21 16:21:59 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-21 16:22:01 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-21 16:22:01 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-21 16:22:01 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-21 16:22:01 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-21 16:22:01 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-21 16:22:02 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@127d220e
+18-11-21 16:22:02 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"lLzyUGpsvvMSnLf6rMZg5mrleSis3FAz","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-21 16:22:02 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-22 15:01:40 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+18-11-22 15:01:44 DEBUG c.neo.sk.paradise.core.UserManager$ - userManager is starting...
+18-11-22 15:01:45 DEBUG c.neo.sk.paradise.core.RoomManager$ - roomManager is starting...
+18-11-22 15:01:45 DEBUG c.neo.sk.paradise.core.UserManager$ - akka://paradise/user/userManager becomes idle behavior.
+18-11-22 15:01:45 DEBUG c.neo.sk.paradise.core.RoomManager$ - akka://paradise/user/roomManager becomes idle behavior.
+18-11-22 15:01:45 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient is starting...
+18-11-22 15:01:45 INFO com.neo.sk.paradise.Boot$ - Starting.
+18-11-22 15:01:45 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-22 15:02:46 INFO com.neo.sk.paradise.Boot$ - Listen to the 0.0.0.0:30370
+18-11-22 15:02:46 INFO com.neo.sk.paradise.Boot$ - Done.
+18-11-22 15:02:48 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-22 15:02:48 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-22 15:02:48 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-22 15:02:48 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-22 15:02:58 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-22 15:03:01 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@32090031
+18-11-22 15:03:01 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"ieLo8IzUJKGKT4lbo6a0o4RVrreZ4YzS","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-22 15:03:04 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-22 16:39:57 INFO akka.actor.LocalActorRef - Message [akka.io.Tcp$Register] from Actor[akka://paradise/system/StreamSupervisor-0/$$b#-1063740] to Actor[akka://paradise/system/IO-TCP/selectors/$a/1#-359603323] was not delivered. [1] dead letters encountered. If this is not an expected behavior, then [Actor[akka://paradise/system/IO-TCP/selectors/$a/1#-359603323]] may have terminated unexpectedly, This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+18-11-22 17:03:04 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-22 17:03:05 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-22 17:03:05 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-22 17:03:05 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-22 17:03:05 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-22 17:03:05 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-22 17:03:06 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@46a9f43e
+18-11-22 17:03:06 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"Kn18YGnwyvu0zHnjP7y1xbicVfiiaQ9G","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-22 17:03:06 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-23 10:27:31 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+18-11-23 10:27:31 DEBUG c.neo.sk.paradise.core.UserManager$ - userManager is starting...
+18-11-23 10:27:31 DEBUG c.neo.sk.paradise.core.UserManager$ - akka://paradise/user/userManager becomes idle behavior.
+18-11-23 10:27:31 DEBUG c.neo.sk.paradise.core.RoomManager$ - roomManager is starting...
+18-11-23 10:27:31 DEBUG c.neo.sk.paradise.core.RoomManager$ - akka://paradise/user/roomManager becomes idle behavior.
+18-11-23 10:27:31 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient is starting...
+18-11-23 10:27:31 INFO com.neo.sk.paradise.Boot$ - Starting.
+18-11-23 10:27:31 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-23 10:27:40 INFO com.neo.sk.paradise.Boot$ - Listen to the 0.0.0.0:30370
+18-11-23 10:27:40 INFO com.neo.sk.paradise.Boot$ - Done.
+18-11-23 10:27:41 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-23 10:27:41 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-23 10:27:41 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-23 10:27:41 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-23 10:27:41 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-23 10:27:41 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@8ead3fb
+18-11-23 10:27:41 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"5Jbvyg2QjHtsaukrKkMD2r3hrg8ITwYV","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-23 10:27:42 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-23 10:40:46 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+18-11-23 10:40:47 DEBUG c.neo.sk.paradise.core.UserManager$ - userManager is starting...
+18-11-23 10:40:47 DEBUG c.neo.sk.paradise.core.RoomManager$ - roomManager is starting...
+18-11-23 10:40:47 DEBUG c.neo.sk.paradise.core.UserManager$ - akka://paradise/user/userManager becomes idle behavior.
+18-11-23 10:40:47 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient is starting...
+18-11-23 10:40:47 INFO com.neo.sk.paradise.Boot$ - Starting.
+18-11-23 10:40:48 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-23 10:40:48 DEBUG c.neo.sk.paradise.core.RoomManager$ - akka://paradise/user/roomManager becomes idle behavior.
+18-11-23 10:41:25 INFO com.neo.sk.paradise.Boot$ - Listen to the 0.0.0.0:30370
+18-11-23 10:41:25 INFO com.neo.sk.paradise.Boot$ - Done.
+18-11-23 10:41:25 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-23 10:41:25 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-23 10:41:25 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-23 10:41:25 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-23 10:41:28 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-23 10:41:28 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@e8e05af
+18-11-23 10:41:28 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"4AllZ5M0zQ5ZuqXPrvngvrGMGIDqMTMC","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-23 10:41:29 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-23 12:41:31 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-23 12:41:32 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-23 12:41:32 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-23 12:41:33 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-23 12:41:33 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-23 12:41:34 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-23 12:41:35 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@3b8e456b
+18-11-23 12:41:35 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"LNn7hh3YrpFE4VmOmshsl5SCkzKyoq3B","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-23 12:41:35 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-23 14:30:17 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+18-11-23 14:30:17 DEBUG c.neo.sk.paradise.core.UserManager$ - userManager is starting...
+18-11-23 14:30:17 DEBUG c.neo.sk.paradise.core.RoomManager$ - roomManager is starting...
+18-11-23 14:30:17 DEBUG c.neo.sk.paradise.core.RoomManager$ - akka://paradise/user/roomManager becomes idle behavior.
+18-11-23 14:30:17 DEBUG c.neo.sk.paradise.core.UserManager$ - akka://paradise/user/userManager becomes idle behavior.
+18-11-23 14:30:17 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient is starting...
+18-11-23 14:30:17 INFO com.neo.sk.paradise.Boot$ - Starting.
+18-11-23 14:30:18 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-23 14:30:29 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-23 14:30:29 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-23 14:30:29 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-23 14:30:29 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-23 14:30:30 INFO com.neo.sk.paradise.Boot$ - Listen to the 0.0.0.0:30370
+18-11-23 14:30:30 INFO com.neo.sk.paradise.Boot$ - Done.
+18-11-23 14:30:30 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-23 14:30:30 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@28342316
+18-11-23 14:30:30 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"3ydU1Jr12QuOMd9eN7jsCZao1O3pPEJw","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-23 14:30:31 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-23 16:49:00 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+18-11-23 16:49:01 DEBUG c.neo.sk.paradise.core.UserManager$ - userManager is starting...
+18-11-23 16:49:01 DEBUG c.neo.sk.paradise.core.RoomManager$ - roomManager is starting...
+18-11-23 16:49:01 DEBUG c.neo.sk.paradise.core.UserManager$ - akka://paradise/user/userManager becomes idle behavior.
+18-11-23 16:49:01 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient is starting...
+18-11-23 16:49:01 DEBUG c.neo.sk.paradise.core.RoomManager$ - akka://paradise/user/roomManager becomes idle behavior.
+18-11-23 16:49:01 INFO com.neo.sk.paradise.Boot$ - Starting.
+18-11-23 16:49:02 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-23 16:49:15 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-23 16:49:15 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-23 16:49:15 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-23 16:49:15 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-23 16:49:15 INFO com.neo.sk.paradise.Boot$ - Listen to the 0.0.0.0:30370
+18-11-23 16:49:15 INFO com.neo.sk.paradise.Boot$ - Done.
+18-11-23 16:49:16 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-23 16:49:16 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@45b756b
+18-11-23 16:49:16 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"2RSYe6nGjE094zgcWxJJh5VjP1CJ5W2F","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-23 16:49:17 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+18-11-28 10:54:32 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+18-11-28 10:54:35 DEBUG c.neo.sk.paradise.core.UserManager$ - userManager is starting...
+18-11-28 10:54:35 DEBUG c.neo.sk.paradise.core.RoomManager$ - roomManager is starting...
+18-11-28 10:54:35 DEBUG c.neo.sk.paradise.core.UserManager$ - akka://paradise/user/userManager becomes idle behavior.
+18-11-28 10:54:35 DEBUG c.neo.sk.paradise.core.RoomManager$ - akka://paradise/user/roomManager becomes idle behavior.
+18-11-28 10:54:35 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient is starting...
+18-11-28 10:54:35 INFO com.neo.sk.paradise.Boot$ - Starting.
+18-11-28 10:54:35 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+18-11-28 10:54:45 INFO com.neo.sk.paradise.Boot$ - Listen to the 0.0.0.0:30370
+18-11-28 10:54:45 INFO com.neo.sk.paradise.Boot$ - Done.
+18-11-28 10:54:45 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+18-11-28 10:54:45 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+18-11-28 10:54:45 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+18-11-28 10:54:45 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+18-11-28 10:54:46 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@79634f66
+18-11-28 10:54:46 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"D488JlJO1BixuwcS5GlcbhybuqaJczyf","expireTime":7200},"errCode":0,"msg":"ok"}
+18-11-28 10:54:46 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+18-11-28 10:54:47 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
+19-01-21 10:30:17 INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+19-01-21 10:30:18 DEBUG c.neo.sk.paradise.core.UserManager$ - userManager is starting...
+19-01-21 10:30:18 DEBUG c.neo.sk.paradise.core.RoomManager$ - roomManager is starting...
+19-01-21 10:30:18 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient is starting...
+19-01-21 10:30:18 INFO com.neo.sk.paradise.Boot$ - Starting.
+19-01-21 10:30:18 DEBUG c.neo.sk.paradise.core.UserManager$ - akka://paradise/user/userManager becomes idle behavior.
+19-01-21 10:30:18 DEBUG c.neo.sk.paradise.core.RoomManager$ - akka://paradise/user/roomManager becomes idle behavior.
+19-01-21 10:30:18 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes init behavior.
+19-01-21 10:30:33 INFO com.neo.sk.utils.HttpUtil$ - Post Request [gsKey2Token] Processing...
+19-01-21 10:30:33 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token url=http://10.1.29.250:30374/esheep/api/gameServer/gsKey2Token
+19-01-21 10:30:33 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token parameters=List()
+19-01-21 10:30:33 DEBUG com.neo.sk.utils.HttpUtil$ - gsKey2Token postData={"gameId":1000000005,"gsKey":"h4lgzsjIr9uHL8Q6dqrWoUIdMHbUhFnp"}
+19-01-21 10:30:34 INFO com.neo.sk.paradise.Boot$ - Listen to the 0.0.0.0:30370
+19-01-21 10:30:34 INFO com.neo.sk.paradise.Boot$ - Done.
+19-01-21 10:30:36 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes busy behavior.
+19-01-21 10:30:36 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response headers:io.netty.handler.codec.http.DefaultHttpHeaders@5dcf6f64
+19-01-21 10:30:36 DEBUG com.neo.sk.utils.HttpUtil$ - getRequestSend response body:{"data":{"token":"Pj07EpoBvOAXW7q1ewjXfGFm2kjYmcGN","expireTime":2592000},"errCode":0,"msg":"ok"}
+19-01-21 10:30:36 DEBUG c.n.s.p.core.EsheepSyncClient$ - akka://paradise/user/esheepSyncClient becomes work behavior.
