@@ -16,7 +16,7 @@ import scala.concurrent.ExecutionContextExecutor
   */
 trait HttpService extends GameService with ResourceService with EsheepApiService {
 
-
+// println("test")
   implicit val system: ActorSystem
 
   implicit val executor: ExecutionContextExecutor
