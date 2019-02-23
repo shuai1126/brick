@@ -1,7 +1,7 @@
-package com.neo.sk.paradise.front.utils
+package com.neo.sk.brick.front.utils
 
-import com.neo.sk.paradise.ptcl.Protocol._
-import com.neo.sk.paradise.ptcl._
+import com.neo.sk.brick.ptcl.Protocol._
+import com.neo.sk.brick.ptcl._
 import org.scalajs.dom
 import org.scalajs.dom.ext.{Color, KeyCode}
 import org.scalajs.dom.html.{Document => _, _}

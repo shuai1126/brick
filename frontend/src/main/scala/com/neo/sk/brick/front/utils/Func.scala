@@ -1,6 +1,6 @@
-package com.neo.sk.paradise.front.utils
+package com.neo.sk.brick.front.utils
 
-import com.neo.sk.paradise.front.utils.JsFunc.decodeURI
+import com.neo.sk.brick.front.utils.JsFunc.decodeURI
 import org.scalajs.dom.window
 
 /**

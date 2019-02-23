@@ -1,4 +1,4 @@
-package com.neo.sk.paradise.front.utils
+package com.neo.sk.brick.front.utils
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation._

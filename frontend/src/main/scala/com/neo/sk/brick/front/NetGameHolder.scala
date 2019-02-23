@@ -1,12 +1,12 @@
-package com.neo.sk.paradise.front
+package com.neo.sk.brick.front
 
 import java.text.SimpleDateFormat
 import java.util.{Calendar, Date}
 
-import com.neo.sk.paradise.ptcl.Protocol._
-import com.neo.sk.paradise.ptcl._
-import com.neo.sk.paradise.front.utils._
-import com.neo.sk.paradise.ptcl.PDGameEvent._
+import com.neo.sk.brick.ptcl.Protocol._
+import com.neo.sk.brick.ptcl._
+import com.neo.sk.brick.front.utils._
+import com.neo.sk.brick.ptcl.PDGameEvent._
 import org.scalajs.dom
 import org.scalajs.dom.ext.{Color, KeyCode}
 import org.scalajs.dom.html.{Document => _, _}
@@ -18,7 +18,7 @@ import scalatags.JsDom.short._
 import scala.scalajs.js.typedarray.ArrayBuffer
 import org.seekloud.byteobject.ByteObject._
 import org.seekloud.byteobject.{MiddleBufferInJs, decoder}
-import com.neo.sk.paradise.ptcl.paradise.Protocol._
+import com.neo.sk.brick.ptcl.paradise.Protocol._
 
 import scala.collection.mutable
 import org.scalajs.dom.html

@@ -1,6 +1,6 @@
-package com.neo.sk.paradise.front
+package com.neo.sk.brick.front
 
-import com.neo.sk.paradise.ptcl._
+import com.neo.sk.brick.ptcl._
 
 import scala.util.Random
 
@@ -11,58 +11,61 @@ import scala.util.Random
   */
 class GridOnClient(override val boundary: Point) extends Grid {
 
-  override def debug(msg: String): Unit = println(msg)
+  private var wsSetup = false
 
-  override def info(msg: String): Unit = println(msg)
+  private var websocketStreamOpt : Option[WebSocket] = None
 
-  override def feedApple(appleCount: Int): Unit = {} //do nothing.
+  def getWsState = wsSetup
 
-  override def checkRush(newDirection: Point, snake: SkDt, tail: Point): Either[(String,SkDt), SkDt] = {
-    val newHeader = snake.header + newDirection * snake.speed
-    var speed = snake.speed
-    if(snake.speed > 16 && snake.length <= 9 ){//长度小于9时强制减速
-      speed = 16
-      var temp = speedMap.getOrElse(frameCount,Map.empty)
-      temp += (snake.id -> false)
-      speedMap += (frameCount -> temp)
-//      direct = Point(newDirection.x * 16.0/24.0,newDirection.y * 16.0/24.0)
+  def getWebSocketUri(name:String): String = {
+    val wsProtocol = if (dom.document.location.protocol == "https:") "wss" else "ws"
+    s"$wsProtocol://${dom.document.location.host}${Routes.wsJoinGameUrl(name)}"
+  }
+
+  private val sendBuffer:MiddleBufferInJs = new MiddleBufferInJs(2048)
+
+  def sendByteMsg(msg: GameFrontEvent): Unit = {
+    import com.neo.sk.breaker.front.utils.byteObject.ByteObject._
+    websocketStreamOpt.foreach{s =>
+      s.send(msg.fillMiddleBuffer(sendBuffer).result())
     }
-    var len = snake.length
-    if(snake.speed > 16 && snake.length >9) len = len -1
-    Right(snake.copy(header = newHeader, tail = tail, direction = newDirection,length = len, protect = snake.protect -1,speed = speed))
   }
 
-  override def updateDeadMessage(killerName: String,deadId: String,deadKill: Int,deadLength: Int): Unit = {}
-
-  override def updateDeadSnake(updatedSnakes:List[SkDt],mapKillCounter:Map[String,Int],deads:List[SkDt]):Unit = {
-    grid ++= updatedSnakes.map(s => s.header -> Body(s.id, s.length,s.color,s.protect))
-    snakes = updatedSnakes.map(s => (s.id, s)).toMap
-  }
-
-  private[this] var waitingJoin = Map.empty[String, (String,Point,String)]
-
-  def addSnake(id: String, name: String, header: Point, color: String) = waitingJoin += (id -> (name,header,color))
-
-  private[this] def genWaitingSnake() = {
-    waitingJoin.filterNot(kv => snakes.contains(kv._1)).foreach { case (id, info) =>
-      val name = info._1
-      val header = info._2
-      val color = info._3
-      grid += header -> Body(id, defaultLength - 1, color, 1000 / Protocol.frameRate * 8)
-      val tail = Point(header.x - 36, header.y)
-      snakes += id -> SkDt(id, name, color,header,tail)
+  def sendTextMsg(msg: String): Unit ={
+    websocketStreamOpt.foreach{ s =>
+      s.send(msg)
     }
-    waitingJoin = Map.empty[String, (String,Point,String)]
   }
 
-  def updateInClient(justSynced: Boolean,types: String): Unit = {
-    if(types == "watchRecord"){
-      super.update(justSynced)
-      genWaitingSnake()
+
+  def setup(name:String):Unit = {
+    if(wsSetup){
+
     }else{
-      super.update(justSynced)
-    }
+      val websocketStream = new WebSocket(getWebSocketUri(name))
+      websocketStreamOpt = Some(websocketStream)
 
+      websocketStream.onopen = { (event: Event) =>
+        wsSetup = true
+        connectSuccessCallback(event)
+      }
+
+      websocketStream.onerror = { (event: Event) =>
+        wsSetup = false
+        websocketStreamOpt = None
+        connectErrorCallback(event)
+      }
+
+      websocketStream.onmessage = { (event: MessageEvent) =>
+        messageHandler(event)
+      }
+
+      websocketStream.onclose = { (event: Event) =>
+        wsSetup = false
+        websocketStreamOpt = None
+        closeCallback(event)
+      }
+    }
   }
 
 }
