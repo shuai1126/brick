@@ -22,7 +22,6 @@ object Login extends Index{
     val data =  LoginReq(account, password).asJson.noSpaces
     Http.postJsonAndParse[LoginUserRsp](Routes.Login.userLogin,data).map{
       case LoginUserRsp(name, 0, "ok") =>
-
         dom.window.location.hash = s"/play/$name"
       case LoginUserRsp("error",100103,"password is wrong") =>
         JsFunc.alert(s"密码错误")
