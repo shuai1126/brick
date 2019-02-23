@@ -7,7 +7,7 @@
 		revision="20190114"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20190118161103"/>
+		date="20190212172936"/>
 	<dependencies>
 		<module organisation="org.seekloud" name="byteobject_2.12">
 			<revision name="0.1.1" status="release" pubdate="20180803091858" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/seekloud/byteobject" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="69">
@@ -966,7 +966,7 @@
 			</revision>
 		</module>
 		<module organisation="shared" name="shared_2.12">
-			<revision name="20190114" status="integration" pubdate="20190118161030" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+			<revision name="20190114" status="integration" pubdate="20190212172925" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="paradise" name="paradise_2.12" conf="compile-internal, compile, provided, optional" rev="20190114" rev-constraint-default="20190114" rev-constraint-dynamic="20190114" callerrev="20190114"/>
 				<artifacts>
