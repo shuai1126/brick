@@ -1,4 +1,4 @@
-package com.neo.sk.paradise.common
+package com.neo.sk.brick.common
 
 import com.typesafe.config.ConfigFactory
 import org.slf4j.LoggerFactory

@@ -1,6 +1,6 @@
 package com.neo.sk.utils
 
-import com.neo.sk.paradise.common.AppSettings
+import com.neo.sk.brick.common.AppSettings
 import com.neo.sk.utils.SecureUtil.{PostEnvelope, genPostEnvelope}
 import org.slf4j.LoggerFactory
 import com.neo.sk.paradise.Boot.executor

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/brick.iml" filepath="$PROJECT_DIR$/.idea/modules/brick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breaker.iml" filepath="$PROJECT_DIR$/.idea/modules/breaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breaker-build.iml" filepath="$PROJECT_DIR$/.idea/modules/breaker-build.iml" />
     </modules>
   </component>
 </project>

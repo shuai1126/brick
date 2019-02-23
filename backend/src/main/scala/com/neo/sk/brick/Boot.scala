@@ -1,12 +1,12 @@
-package com.neo.sk.paradise
+package com.neo.sk.brick
 
 import akka.actor.ActorSystem
 import akka.event.{Logging, LoggingAdapter}
 import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import com.neo.sk.paradise.core.{EsheepSyncClient, RoomManager, UserManager}
-import com.neo.sk.paradise.http.HttpService
+import com.neo.sk.brick.core.{EsheepSyncClient, RoomManager, UserManager}
+import com.neo.sk.brick.http.HttpService
 import akka.actor.typed.ActorRef
 
 import scala.language.postfixOps

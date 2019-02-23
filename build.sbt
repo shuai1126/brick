@@ -5,11 +5,11 @@ name := "brick"
 val scalaV = "2.12.6"
 //val scalaV = "2.11.8"
 
-val projectName = "paradise"
+val projectName = "brick"
 val projectVersion = "20190114"
 
-val projectMainClass = "com.neo.sk.paradise.Boot"
-val clientMainClass = "com.neo.sk.paradise.ClientBoot"
+val projectMainClass = "com.neo.sk.brick.Boot"
+val clientMainClass = "com.neo.sk.brick.ClientBoot"
 
 def commonSettings = Seq(
   version := projectVersion,
@@ -71,15 +71,15 @@ lazy val backend = (project in file("backend")).enablePlugins(PackPlugin)
     mainClass in reStart := Some(projectMainClass),
     javaOptions in reStart += "-Xmx2g"
   )
-  .settings(name := "paradise")
+  .settings(name := "brick")
   .settings(
     //pack
     // If you need to specify main classes manually, use packSettings and packMain
     //packSettings,
     // [Optional] Creating `hello` command that calls org.mydomain.Hello#main(Array[String])
-    packMain := Map("paradise" -> projectMainClass),
-    packJvmOpts := Map("paradise" -> Seq("-Xmx256m", "-Xms64m")),
-    packExtraClasspath := Map("paradise" -> Seq("."))
+    packMain := Map("brick" -> projectMainClass),
+    packJvmOpts := Map("brick" -> Seq("-Xmx256m", "-Xms64m")),
+    packExtraClasspath := Map("brick" -> Seq("."))
   )
   .settings(
     libraryDependencies ++= Dependencies.backendDependencies
@@ -124,9 +124,9 @@ lazy val client = (project in file("client")).enablePlugins(PackPlugin)
     javaOptions in reStart += "-Xmx2g"
   )
   .settings(
-    packMain := Map("paradise" -> clientMainClass),
-    packJvmOpts := Map("paradise" -> Seq("-Xmx512m", "-Xms64m")),
-    packExtraClasspath := Map("paradise" -> Seq("."))
+    packMain := Map("brick" -> clientMainClass),
+    packJvmOpts := Map("brick" -> Seq("-Xmx512m", "-Xms64m")),
+    packExtraClasspath := Map("brick" -> Seq("."))
   )
   .settings(libraryDependencies ++= Dependencies.backendDependencies)
   //  .settings(

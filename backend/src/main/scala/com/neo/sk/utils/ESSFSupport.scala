@@ -2,9 +2,9 @@ package com.neo.sk.utils
 
 import java.io.File
 
-import com.neo.sk.paradise.common.AppSettings
-import com.neo.sk.paradise.ptcl.PDGameEvent
-import com.neo.sk.paradise.ptcl.PDGameEvent._
+import com.neo.sk.brick.common.AppSettings
+import com.neo.sk.brick.ptcl.PDGameEvent
+import com.neo.sk.brick.ptcl.PDGameEvent._
 import org.seekloud.byteobject.{MiddleBuffer, MiddleBufferInJvm, decoder}
 import org.seekloud.essf.io.{FrameData, FrameInputStream, FrameOutputStream}
 import org.slf4j.LoggerFactory

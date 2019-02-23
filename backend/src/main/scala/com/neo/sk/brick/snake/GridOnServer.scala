@@ -1,4 +1,4 @@
-package com.neo.sk.paradise.snake
+package com.neo.sk.brick.snake
 
 import com.neo.sk.paradise.ptcl.PDGameEvent.{MouseEvent, Snapshot, SpeedEvent}
 import com.neo.sk.paradise.ptcl.paradise.Protocol._

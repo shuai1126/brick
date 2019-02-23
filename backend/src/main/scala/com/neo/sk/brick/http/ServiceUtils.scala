@@ -1,12 +1,12 @@
-package com.neo.sk.paradise.http
+package com.neo.sk.brick.http
 
 
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse}
 import akka.http.scaladsl.server
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
-import com.neo.sk.paradise.common.AppSettings
-import com.neo.sk.paradise.ptcl.paradise.Protocol.ErrorRsp
+import com.neo.sk.brick.common.AppSettings
+import com.neo.sk.brick.ptcl.paradise.Protocol.ErrorRsp
 import com.neo.sk.utils.{CirceSupport, SecureUtil}
 import com.neo.sk.utils.SecureUtil.PostEnvelope
 import org.slf4j.LoggerFactory

@@ -1,4 +1,4 @@
-package com.neo.sk.paradise.http
+package com.neo.sk.brick.http
 
 import java.util.concurrent.atomic.AtomicLong
 
